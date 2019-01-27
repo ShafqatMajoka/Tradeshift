@@ -2,10 +2,22 @@
 
 The solution contains the following Java class.
 
-1. Enumerate type: EQUILATERAL,ISOSCELES and SCALENE
-2. Matcher class is core class used to find the type of triangle. Matcher class contains a method called getTriangleType which takes the triangle's three sides as input and return the type of triangle. The getTriangleType method will throw exception if any of the length is <= 0.
-3. MatcherTest class contains three unit tests which give 100% line coverage for a class called Matcher.
-4. Tradeshift class is main class used to run the project.
+### Enumerate Type
+The following enumerate types used in project for comparison purpose.
+1. EQUILATERAL
+2. ISOSCELES
+3. SCALENE
+### Matcher Class 
+The is core class is core class used to find the type of triangle. Matcher class contains a method called getTriangleType which takes the triangle's three sides as input and return the type of triangle after processing. 
+#### Note
+Further more some exeception has been done in the getTriangleType method. The method will throw exception if user try to pass any of the length is <= 0.
+
+### Tradeshift Class 
+The Tradeshift class contains the static method (main) used as strarting point to run the project. A object of Matcher class is created in main method to pass three different combinations of inputs to demonstartion the functionality of  getTriangleType method.
+
+### Matcher Unit Tests 
+
+MatcherTests class contains three unit tests which give 100% path coveraged to Matcher class.
 
 
 ### Java Installation:
