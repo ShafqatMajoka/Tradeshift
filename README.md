@@ -34,7 +34,7 @@ Please import project as a Maven project in IntelliJ IDEA OR use the IDE of your
 _________________________________________________________
 
 ## Environment Configuration
-This section provide guidance to configure the development environment.
+This section provides guidance to configure the development environment.
 
 ### Java Installation:
 
