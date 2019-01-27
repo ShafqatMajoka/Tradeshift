@@ -28,5 +28,8 @@ Step 4: Include Maven's "bin" Directory in the System PATH. In my case, I includ
 
 ### IntelliJ IDEA Installation:
 
-Step 1: Download and install IntelliJ IDEA Community edition using link https://www.jetbrains.com/idea/#chooseYourEdition and import project as a Maven project.
+Step 1: Download and install IntelliJ IDEA Community edition using link https://www.jetbrains.com/idea/#chooseYourEdition and 
+### Import Project.
+
+Please import project as a Maven project in IntelliJ IDEA OR of your own choice.
 
