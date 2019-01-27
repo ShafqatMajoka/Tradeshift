@@ -1,4 +1,11 @@
-### Solution Description
+## Tools and Technologies Used
+The following tools and technologies used in this project
+1. Java SE version (8)
+3. Junit version (4.12)
+5. Apache Maven version (3.5.0)
+6. IntelliJ IDEA Community Edition version (2017.1.2)
+
+## Solution Description
 
 The solution contains the following Java class.
 
@@ -19,6 +26,14 @@ The Tradeshift class contains the static method (main) used as strarting point t
 
 MatcherTests class contains three unit tests which give 100% path coveraged to Matcher class.
 
+### Import Project.
+
+Please import project as a Maven project in IntelliJ IDEA OR use the IDE of your choice.
+
+_________________________________________________________
+
+## Environment Configuration
+This section provide guidance to configure the development environment.
 
 ### Java Installation:
 
@@ -41,7 +56,3 @@ Step 4: Include Maven's "bin" Directory in the System PATH. In my case, I includ
 ### IntelliJ IDEA Installation:
 
 Step 1: Download and install IntelliJ IDEA Community edition using link https://www.jetbrains.com/idea/#chooseYourEdition and 
-### Import Project.
-
-Please import project as a Maven project in IntelliJ IDEA OR of your own choice.
-
