@@ -9,15 +9,16 @@ The following tools and technologies used in this project
 
 The solution contains the following Java class.
 
+### Matcher Class 
+The is core class is core class used to find the type of triangle. Matcher class contains a method called getTriangleType which takes the triangle's three sides as input and return the type of triangle after processing. 
+#### Note
+Further more some exeception has been done in the getTriangleType method. The method will throw exception if user try to pass any of the length is <= 0.
+
 ### Enumerate Type
 The following enumerate types used in project for comparison purpose.
 1. EQUILATERAL
 2. ISOSCELES
 3. SCALENE
-### Matcher Class 
-The is core class is core class used to find the type of triangle. Matcher class contains a method called getTriangleType which takes the triangle's three sides as input and return the type of triangle after processing. 
-#### Note
-Further more some exeception has been done in the getTriangleType method. The method will throw exception if user try to pass any of the length is <= 0.
 
 ### Tradeshift Class 
 The Tradeshift class contains the static method (main) used as strarting point to run the project. A object of Matcher class is created in main method to pass three different combinations of inputs to demonstartion the functionality of  getTriangleType method.
