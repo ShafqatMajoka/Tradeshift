@@ -12,7 +12,7 @@ The solution contains the following Java classes.
 ### Matcher Class 
 The is core class used to find the type of triangle. Matcher class contains a method called getTriangleType which takes the triangle's three sides as input and return the type of triangle after processing. 
 #### Note
-Further more some exeception has been done in the getTriangleType method. The method will throw exception if user try to pass any of the length either zero OR negative value.
+Further more some exeception handling has been done in the getTriangleType method. The method will throw exception if user try to pass any of the length either zero OR negative value.
 
 ### Enumerate Type
 The following enumerate types used in project for comparison purpose.
